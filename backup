@@ -1,4 +1,5 @@
 #! /bin/bash
+echo "Backing up CI"
 git add .
 git commit -m "backup"
 git push
